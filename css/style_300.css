@@ -15,17 +15,22 @@ body {
 .wrapper {
   font-size: 1.6em;
   padding: 1.8em;
-  margin: 0 auto;
-  width: 600px; /* NEW */
+  margin: auto;
+  width: 300px; /* NEW */
   background-color: white;
+}
+
+main {
+ float: none;
 }
 
 /* NEW */
 #logo {
-  display: inline-block;
-  height: 96px;
-  width: 84px;
-  margin-left: -15px;
+  display: block;
+  height: 192px;
+  width: 168px;
+  margin: auto;
+  padding-bottom: 15px;
 }
 
 .sb-item {
@@ -38,15 +43,16 @@ body {
    /* NEW */
   display: inline;
   list-style-type: none;
-  margin-left: 14px;
+  margin: 0 auto;
   background: none;
 }
 
 .sb-icon-list {
   margin-bottom: 50px;
-  width: 430px;
+  width: 300px;
   display: inline-block;
   font-size: .9em;
+  text-align: center;
 }
 
 /*
@@ -69,7 +75,7 @@ body {
 
 .list-span{
   display: inline-block;
-  padding-left: 0px;
+  padding-left: 15px;
   padding-top: 8px;
   font-size: 1.4em;
 }
@@ -80,31 +86,33 @@ body {
 }
 
 #big-image {
-  margin-bottom: 50px;
-  width: 570px;
-  height: 355px;
+  
+  width: 300px;
+  height: 300px;
+  margin: auto;
 }
 
 #newsletter {
   background: url('../images/newsletter-ic.png') bottom left no-repeat;
   height: 34px;
-  padding-left: 54px;
+  padding-left: 0px;
   position: relative; /* So I can position subscribe-span */
   margin-bottom: 50px;
 }
 
 #signup-txt {
-  width: 246px;
+  width: 300px;
   display: inline-block;
   font-size: .7em;
-  margin-right: 15px;
+  margin-right: 0px;
   padding-top: 5px;
 }
 
 .email-input {
   height: 25px;
   width: 150px;
-  margin-right: 15px;
+  margin-right: 5px;
+  display: inline-block;
 }
 
 .button {
@@ -131,12 +139,19 @@ body {
   position: absolute;
   bottom: 10;
   margin-top: 8px;
+
 }
 
 .article {
+
   display: inline-block;
-  width: 166px;
-  margin-right: 29px;
+  width: 300px;
+  margin: auto;
+}
+
+.article img {
+  width: 300px;
+  margin: auto;
 }
 
 .art-title {
@@ -144,15 +159,6 @@ body {
   margin-bottom: 10px;
 }
 
-.third-art {
-  margin-right: 0px;
-}
-
-.fourth-art {
-  margin-right: 0px;
-}
-
-/* NEW */
-.fourth-art {
-  display: none;
+.art-excerpt {
+  margin-bottom: 10px;
 }
